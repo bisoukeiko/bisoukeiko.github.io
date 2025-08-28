@@ -53,7 +53,7 @@ h2{
     justify-content: right;
     gap: 1.2rem;
     list-style: none;
-    padding-right: 8rem;
+    padding-right: 3rem;
 }
 .navbar ul a{
     color:#333;
@@ -76,16 +76,17 @@ h2{
     justify-content: center;
     gap: 1rem;
 }
-#about .profile-picture{
+/* #about .profile-picture{
     width: 150px;
     height: 150px;
     border-radius: 40px;
     object-fit: cover;
     margin-bottom: 1rem;
-}
+} */
 #about p{
     max-width: 600px;
     margin-top: 0;
+    padding: 0.2rem 0.5rem;
     text-align: justify;
 }
 #projects{
@@ -136,6 +137,7 @@ h2{
 }
 #projects .card .card-header .date{
     font-size: 0.9rem;
+    margin: 0 0.2rem;
     color: #666;
 }
 #projects .card .project-skill{
@@ -161,7 +163,7 @@ h2{
     text-align: center;
 }
 #skills .skills-container{
-    margin: 0 auto 2rem auto;
+    margin: 0 auto 3rem auto;
     max-width: 600px;
 }
 #skills .skills-container p{
